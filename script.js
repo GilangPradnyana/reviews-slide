@@ -56,3 +56,13 @@ function showPerson() {
   job.textContent = item.job;
   description.textContent = item.text;
 };
+
+// btns to slide the items
+prevBtn.addEventListener('click', ()=> {
+  currentItem--
+  if(currentItem < 0 ) {
+    currentItem = reviews.length - 1;
+  };
+  showPerson();
+});
+nextBtn.addEventListener()
